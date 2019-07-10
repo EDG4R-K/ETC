@@ -1,4 +1,5 @@
 #!/bin/bash
+#해당 스크립트 실행 전 ssh-rsa 값을 서버에 복사해야 됨
 PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/root/bin
 #환경변수 지정
 
