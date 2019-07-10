@@ -1,0 +1,7 @@
+#서버 연결 시간 확장
+#30초마다 연결 상태 확인
+#클라이언트 ~/.ssh/config 안에 넣을것
+#권한은 최소 644이상 필요
+Host *
+  ServerAliveInterval 30
+
