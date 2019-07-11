@@ -1,5 +1,8 @@
 파일 / 진행 방법
 
+GoogleDrive
+https://drive.google.com/drive/folders/1XxjGgxcYAsrlAbofDhFWi6O2FAL39feA?usp=sharing
+
 1. 기존 APR 제거
 - 설치되어 있는 APR 버전은 1.3.9이며 아파치 2.4부턴 1.4.0 이상 버전이 필요함
 - 제거를 하지 않고 상위 버전 설치시 충돌이나는 경우가 있음
