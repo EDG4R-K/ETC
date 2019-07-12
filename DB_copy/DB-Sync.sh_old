@@ -1,0 +1,6 @@
+#!/bin/bash
+
+TIME=`date +%Y%m%d`
+
+echo "use vmfort;source /tmp/backup_$TIME.sql;" | mysql -uroot -p"vmfort12!@"
+
