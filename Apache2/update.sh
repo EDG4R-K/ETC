@@ -12,7 +12,7 @@ tar zxvf apr-util-1.6.1.tar.gz > /dev/null 2>&1
 mv apr-1.7.0 httpd-2.4.39/srclib/apr
 mv apr-util-1.6.1 httpd-2.4.39/srclib/apr-util
 cd httpd-2.4.39 > /dev/null 2>&1
-./configure --prefix=/usr/local/apache2 --with-included-apr --enable-so > /dev/null 2>&1
+./configure --prefix=/usr/local/apache2 --with-included-apr --enable-so --enable-mods-shared --enable-rewrite --enable-ssl --enable-modules=ssl > /dev/null 2>&1
 make > /dev/null 2>&1
 make install > /dev/null 2>&1
 
